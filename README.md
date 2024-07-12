@@ -1,6 +1,6 @@
 <!-- PROJECT INTRO -->
 <div align="center">
-  <a href="https://abdullahab120.github.io/Portfolio">
+  <a href="https://abdullahab120.github.io/Portfolio-website">
     <img src="./assets/img/Banner.jpg" alt="Logo" width="400" height="250"> 
   </a>
 
@@ -8,11 +8,11 @@
 
   <h3> This is a portfolio website temaplate idea, not my own portfolio </h3>
   <p>
-    <a href="https://abdullahab120.github.io/Portfolio"> View Demo </a>
+    <a href="https://abdullahab120.github.io/Portfolio-website"> View Demo </a>
     ·
-    <a href="https://github.com/AbdullahAB120/Portfolio/issues/new?labels=bug&template=bug-report---.md"> Report Bug </a>
+    <a href="https://github.com/AbdullahAB120/Portfolio-website/issues/new?labels=bug&template=bug-report---.md"> Report Bug </a>
     ·
-    <a href="https://github.com/AbdullahAB120/Portfolio/issues/new?labels=enhancement&template=feature-request---.md"> Request Feature </a>
+    <a href="https://github.com/AbdullahAB120/Portfolio-website/issues/new?labels=enhancement&template=feature-request---.md"> Request Feature </a>
   </p>
 </div>
 
