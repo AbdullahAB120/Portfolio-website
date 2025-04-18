@@ -1,0 +1,331 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #000000;
+	color: #ffffff;
+	font-family: Arial;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+}
+
+
+
+/* Header Section Starts Here */
+
+header {
+	display: flex;
+	align-items: center;
+	padding: 10px 20px;
+}
+
+header::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.logo {
+	flex: 50%;
+	display: flex;
+	align-items: center;
+}
+
+.logo img {
+	height: 60px;
+	width: 60px;
+}
+
+.logo p {
+	color: #26ffa8;
+	font-size: 35px;
+	font-weight: bolder;
+	text-transform: uppercase;
+	border-left: 3px solid #26ffa8;
+	margin: 5px;
+	padding: 10px 15px;
+}
+
+.menu {
+	flex: 50%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.menu a {
+	color: #26ffa8;
+	margin: 5px;
+	padding: 10px 15px;
+	font-size: 22px;
+	font-weight: bold;
+	border-radius: 5px;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: 0.5s;
+}
+ 
+.menu a:hover {
+	background: #26ffa8;
+	color: #000000;
+}
+ 
+/* Header Section Ends Here */
+
+
+
+/* Profile Section Starts Here */
+
+.profile {
+	display: flex;
+	align-items: center;
+}
+
+.profile::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.profile-details {
+	flex: 50%;
+	margin: 0 50px;
+}
+
+.profile-details h1 {
+	font-size: 45px;
+	font-weight: bolder;
+	letter-spacing: 1.5px;
+	margin-top: -15px;
+}
+
+.colorful-text {
+	color: #26ffa8;
+}
+
+.profile-details p:first-child {
+	color: #26ffa8d4;
+	font-size: 17px;
+	letter-spacing: 1.8px;
+	text-transform: uppercase;
+}
+
+.profile-details p {
+	font-size: 18px;
+	padding: 20px 0;
+}
+
+.profile-details button {
+	border: 3px solid #26ffa8;
+	border-radius: 5px;
+	padding: 10px 15px;
+	margin-right: 20px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.btn1 {
+	background: none;
+	color: #26ffa8;
+}
+
+.btn1:hover {
+	background: #26ffa8;
+	color: #000000;
+}
+
+.btn2 {
+	background: #26ffa8;
+	color: #000000;
+}
+
+.btn2:hover {
+	background: none;
+	color: #26ffa8;
+}
+
+
+.profile-img {
+	flex: 40%;
+}
+
+/* Profile  Section Ends Here */
+
+
+
+/* About Section Starts Here */
+
+.about {
+	padding: 100px 0;
+}
+
+.section-heading {
+	color: #26ffa8;
+	font-size: 45px;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: 1.5px;
+}
+
+.about-information {
+	display: flex;
+	padding: 50px 0;
+}
+
+.about-information-left {
+	flex: 50%;
+	margin-left: 5%;
+}
+
+.about-information-right {
+	flex: 50%;
+	margin-left: 5%;
+}
+
+.about-information p {
+	font-size: 25px;
+	line-height: 45px;
+}
+
+.about-information p::before {
+	content: '\27A4';
+	color: #26ffa8;
+}
+
+/* About Section Ends Here */
+
+
+
+/* Skill Section Starts Here */
+
+.skill {
+	padding: 50px 0;
+}
+
+.skill-items {
+	display: flex;
+	text-align: center;
+	padding: 30px 0;
+}
+
+.skill-item-1,
+.skill-item-2,
+.skill-item-3 {
+	flex: auto;
+	padding: 20px 0;
+}
+
+.skill-items i {
+	text-align: center;
+	color: #26ffa8;
+	font-size: 200px;
+	transition: 1s;
+}
+
+.skill-items i:hover {
+	transform: scale(1.1);
+}
+
+.skill-items h3 {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+/* Skill Section Ends Here */
+
+
+
+/* Contact Section Starts Here */
+
+.contact {
+	padding: 50px;
+}
+
+.contact-me {
+	display: flex;
+	padding: 50px;
+}
+
+.social {
+	flex: 50%;
+	text-align: center;
+	margin: 30px 0;
+}
+
+.social a {
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 35px;
+	font-weight: 500;
+	line-height: 60px;
+	letter-spacing: 1.5px;
+}
+
+.social a i {
+	color: #26ffa8;
+}
+
+.contact-form {
+	flex: 50%;
+	text-align: center;
+}
+
+input[type="text"],
+input[type="email"] {
+	border: 2px solid #26ffa8;
+	border-radius: 5px;
+	background: none;
+	color: #ffffff;
+	padding: 10px 20px;
+	margin: 10px 0;
+	display: inline-block;
+	outline: none;
+	width: 350px;
+	font-size: 20px;
+}
+
+input::placeholder,
+textarea::placeholder {
+	color: lightgray;
+}
+
+textarea {
+	resize: none;
+	border: 2px solid #26ffa8;
+	border-radius: 5px;
+	outline: none;
+	background: none;
+	color: #ffffff;
+	padding: 10px 20px;
+	margin: 10px 0;
+	height: 100px;
+	width: 350px;
+	font-size: 20px;
+}
+
+.contact-form button {
+	background: #26ffa8;
+	color: #000000;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 15px;
+	margin: 15px 0;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/* Contact Section Ends Here */
+
+
+
+/* Footer Section Starts Here */
+
+footer p {
+	padding: 20px 0;
+	font-size: 18px;
+	text-align: center;
+}
+
+/* Footer Section Ends Here */

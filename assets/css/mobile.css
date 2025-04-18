@@ -1,0 +1,129 @@
+body {
+	text-align: center;
+}
+
+/* Header Section Starts Here */
+
+header {
+	flex-direction: column;
+}
+
+.logo {
+	flex-direction: column;
+}
+
+.logo p {
+	font-size: 40px;
+	border-left: 0;
+}
+
+.menu {
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+
+.menu a {
+	border: 3px solid #26ffa8;
+	width: 100%;
+	font-size: 17px;
+	text-align: center;
+}
+
+/* Header Section Ends Here */
+
+
+
+/* Profile Section Starts Here */
+
+.profile {
+	flex-direction: column;
+	padding: 0;
+}
+
+.profile-details {
+	order: 2; 
+	margin: 0;
+	padding: 30px 0;
+}
+
+.profile-details h1 {
+	font-size: 40px;
+	margin-top: -15px;
+}
+
+.colorful-text {
+	color: #ffffff;
+}
+
+.profile-img {
+	order: 1;
+	width: 100%;
+}
+
+.profile-img img {
+	width: 100%;
+	height: auto;
+}
+
+/* Profile Section Ends Here */
+
+
+
+/* About Section Starts Here */
+
+.about-information {
+	flex-direction: column;
+}
+
+.about-information p {
+	text-align: left;
+	font-size: 22px;
+}
+
+/* About Section Ends Here */
+
+
+
+/* Skkll Section Starts Here */
+
+.skill-items {
+	flex-direction: column;
+}
+
+/* Skill Section Ends Here */
+
+
+
+/* Contact Section Starts Here */
+
+.contact {
+	padding: 50px 0;
+}
+
+.contact-me {
+	flex-direction: column;
+}
+
+.social {
+	order: 1;
+}
+
+.social a {
+	font-size: 25px;
+}
+
+.contact-form {
+	order: 2;
+}
+
+input[type="text"],
+input[type="email"] {
+	width: 100%;
+}
+
+textarea {
+	width: 100%;
+}
+
+/* Contact Section Ends Here */
